@@ -27,6 +27,12 @@
       <url>http://18.208.115.203:8081/repository/nets/</url>
     </snapshotRepository>
   </distributionManagement>
+  
+   <scm>
+    <connection>scm:git:git://github.com/maheshkarur1991/simple-java-maven-app.git</connection>
+    <developerConnection>scm:git:git@github.com:maheshkarur1991/simple-java-maven-app.git</developerConnection>
+    <url>http://github.com/maheshkarur1991/simple-java-maven-app</url>
+</scm>
   <build>
     <plugins>
       <plugin>
@@ -45,12 +51,7 @@
         </configuration>
       </plugin>
  <plugin>
-   
- <scm>
-    <connection>scm:git:git://github.com/maheshkarur1991/simple-java-maven-app.git</connection>
-    <developerConnection>scm:git:git@github.com:maheshkarur1991/simple-java-maven-app.git</developerConnection>
-    <url>http://github.com/maheshkarur1991/simple-java-maven-app</url>
-</scm>
+  
         <artifactId>maven-site-plugin</artifactId>
         <version>3.4</version>
         <dependencies>
