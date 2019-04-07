@@ -30,7 +30,7 @@
   
    <scm>
     <connection>scm:git:git://github.com/maheshkarur1991/simple-java-maven-app.git</connection>
-    <developerConnection>scm:git:git@github.com:maheshkarur1991/simple-java-maven-app.git</developerConnection>
+    <developerConnection>scm:git:maheshkarur19@gmail.com:maheshkarur1991/simple-java-maven-app.git</developerConnection>
     <url>http://github.com/maheshkarur1991/simple-java-maven-app</url>
 </scm>
   <build>
