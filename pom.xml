@@ -45,6 +45,12 @@
         </configuration>
       </plugin>
  <plugin>
+   
+ <scm>
+    <connection>scm:git:git://github.com/maheshkarur1991/simple-java-maven-app.git</connection>
+    <developerConnection>scm:git:git@github.com:maheshkarur1991/simple-java-maven-app.git</developerConnection>
+    <url>http://github.com/maheshkarur1991/simple-java-maven-app</url>
+</scm>
         <artifactId>maven-site-plugin</artifactId>
         <version>3.4</version>
         <dependencies>
