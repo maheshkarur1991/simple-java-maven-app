@@ -19,12 +19,12 @@
     <repository>
       <id>nexus</id>
       <name>Nexus Releases</name>
-      <url>http://18.208.115.203:8081/repository/nets_release/</url>
+      <url>http://3.86.238.232:8081/repository/nets_release/</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
       <name>Nexus Snapshot</name>
-      <url>http://18.208.115.203:8081/repository/nets/</url>
+      <url>http://3.86.238.232:8081/repository/nets/</url>
     </snapshotRepository>
   </distributionManagement>
   
